@@ -1,0 +1,80 @@
+//Aprenda Mineração de Dados: Teoria e prática - Fernando Amaral
+//Capítulo 1 - Introdução à Mineração de Dados
+//Exercícios 1 a 9
+
+1 - Não é um exemplo típico de aplicação de Mineração de Dados.
+
+	a) Prever se clientes de uma empresa de telefonia podem migrar para o concorrente
+	b) Checar se o cálculo da folha de pagamento está correto
+	c) Detectar tentativa de invasão de rede
+	d) Tentar reduzir a evasão escolar
+
+	Resposta: b) Checar se o cálculo da folha de pagamento está correto. A mineração de dados tem o intuíto de fazer a obtenção de determinados dados e, partindo de um 		modelo, fazer predições, por exemplo, de acontecimentos, que caberiam as opções a) c) e d).
+
+2 – Qual a melhor definição da sentença a seguir: Conjuntos de dados coletados sobre o desempenho de uma marca de veículo.
+
+	a) Uma relação
+	b) Uma instância
+	c) Um atributo
+	d) Uma classe
+
+	Resposta: a) Uma relação. 
+
+3 – Nos dados de um determinado paciente, temos informações sobre sua idade, pressão arterial e temperatura corporal. Qual é a melhor definição destes dados?
+
+	a) Uma relação
+	b) Uma instância
+	c) Um atributo
+	d) Uma classe
+
+	Resposta: c) Um atributo
+
+4 – Uma relação para tarefas de classificação é formada por atributos e uma classe. A classe é um atributo especial que queremos prever ou descrever. Uma classe não é um atributo. A sentença anterior é:
+
+	a) Verdadeira
+	b) Falsa
+
+	Resposta: a) Verdadeira! Podemos pegar o enunciado do exercício 3 para usarmos de exemplo:
+	O paciente seria a RELAÇÃO. Idade, pressão arterial e temperatura corporal seria os ATRIBUTOS. CLASSE seria então algo que, por exemplo, queremos descobrir como 		"agendar consulta = sim ou não" ou "frequência cardiaca = x bpm".
+
+5 – Analisamos dados coletados de algas marinhas desconhecidas, buscando categoriza-las segundo atributos em comuns. Que tipo de tarefa de mineração de dados é este?
+
+	a) Classificação
+	b) Agrupamento
+	c) Regressão
+	e) Outros
+
+	Resposta: b) Agrupamento. Note que não teremos nenhum dado prévio para comparação mas mesmo assim conseguiremos relacionar de acordo com atributos em comum. 
+
+6 – Sobre o caso apresentado na pergunta anterior, podemos dizer que este tipo de tarefa de mineração de dados é:
+
+	a) Supervisionada
+	b) Não supervisionada
+
+	Resposta: b) Não supervisionada justamente pela falta de atributos centrais (dados previamente conhecidos) que podemos tomar como "guia". 
+
+7 – O CEP de uma residência é qual tipo de dado?
+
+	a) Nominal
+	b) Numérico
+
+	Resposta: ****
+
+8 – Prever a altura de bebês a partir do sua altura aos dois anos de idade. Que tipo de tarefa de mineração de dados é está?
+
+	a) Classificação
+	b) Agrupamento
+	c) Regras de Associação
+	e) Regressão
+
+	Resposta: e) Regressão pois a saída dos dados não será em um atributo de classe já determinada, como exemplo "Sim / Não". O resultado será em "x cm" tendo alta variação 		de acordo com os parâmetros.
+
+9 – Seu cliente quer potencializar as vendas em seu e-commerce e lhe contrata para tentar ofertar novos produtos aos clientes a medida que eles compram. Que tipo de tarefa de
+mineração de dados é está?
+
+	a) Classificação
+	b) Agrupamento
+	c) Regras de Associação
+	e) Regressão
+
+	Resposta: c) Regras de Associação.

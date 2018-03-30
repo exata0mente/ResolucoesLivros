@@ -1,0 +1,50 @@
+//Aprenda Mineração de Dados: Teoria e prática - Fernando Amaral
+//Capítulo 2 - Introdução ao Weka
+//Exercícios 1 a 6
+
+1 – Marque o item que NÃO é uma característica geral do Weka.
+
+	a)Executado em linha de comando // Falso! Esta é uma característica do Weka mas não geral. O Weka possui uma GUI.
+	b)Open source			// Verdadeiro! O Weka é um software sobre licença GNU
+	c)Desenvolvido em Java		// Verdadeiro!
+	d)Multi plataforma		// Verdadeiro! Por ser desenvolvido em Java ele possui alta portabilidade (Windows / Linux / etc.)
+
+
+2 – Você quer classificar dados de vendas para o departamento de marketing, mas não tem certeza de qual classificador utilizar. O melhor aplicativo do Weka para testar diferentes modelos e classificadores é:
+
+	a)Explorer
+	b)Simple CLI
+	c)Experimenter
+	d)KnowledgeFlow
+	
+	Resposta: a) Explorer
+
+3 – Qual característica de um arquivo arff a seguir é falsa:
+
+	a)Arquivo ASCII 			// Verdadeiro!
+	b)Pode ser lido apenas pela Weka 	// Falso! Por seus arquivos de formato ARFF estarem no padrão ASCII, qualquer sistema pode lê-lo.
+	c)Possui uma área @ATTRIBUTE 		// Verdadeiro! 
+	d)É legível para humanos		// Verdadeiro!
+
+4 – Carregue o arquivo contact-lenses.arff e resolva: 
+
+	a)Quantas classes a relação tem?	// *** 1 classe: contact-lenses
+	b)Quantos atributos?			// *** 4 atributos: age, spectacle-prescrip, astigmatism e tear-prod-rate.
+	c)Qual o nome da relação?		// contact-lenses
+	d)Qual a classe de maior freqüência?	// *** none.
+
+5 – Carregue o arquivo cpu.arff e resolva:
+
+	a)Qual o tipo de dado predominante na relação?	// Dado numérico
+	b)Qual o tipo de dados da classe?		// Dado numérico
+	c)Qual o menor valor do atributo MYCT?		// 17
+	d)Qual o maior valor para a classe?		// 1150
+
+6 – Ainda sobre a relação contact-lenses.arff, se quisermos prever a classe, qual tipo de tarefa de aprendizado de maquina utilizaremos?
+
+	a)Classificação
+	b)Regressão
+	c)Agrupamentos
+	d)Regras de Associação
+
+	Resposta: a) Classificação

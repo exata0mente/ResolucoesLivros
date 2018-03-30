@@ -1,0 +1,26 @@
+//Aprenda Mineração de Dados: Teoria e prática - Fernando Amaral
+//Capítulo 4 - Regressão
+//Exercícios 1 a 3
+
+1 – Temos varias variáveis independentes que serão usadas para prever uma variável dependente. Qual a melhor descrição para esta função:
+
+	a) Regressão linear simples
+	b) Regressão linear múltipla
+	c) Correlação
+
+	Resposta: Regressão linear simples
+
+2 - Relacione as duas colunas:
+
+	a) -0,03		(c) Correlação positiva fraca
+	b) -0,9			(b) Correlação negativa forte
+	c) 0,12			(a) Correlação negativa fraca
+	d) 0,89			(e) Correlação positiva perfeita
+	e) 1			(d) Correlação positiva forte
+
+3 – Prever a vendas de casacos conforme a temperatura. Sobre esta afirmação:
+
+	a) Qual é a variável independente e qual a variável dependente? 
+		Resposta: a variável temperatura.
+	c) Esta é uma correlação positiva ou negativa?
+		Resposta: Correlação negativa pois a linha de tendência será descendente, já que a medida que a temperatura aumenta (x) a venda de casacos (y) cai.

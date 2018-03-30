@@ -1,0 +1,97 @@
+//Aprenda Mineração de Dados: Teoria e prática - Fernando Amaral
+//Capítulo 3 - Classificação
+//Exercícios 1 a 6
+
+1 – Coletamos e tratamos dados sobre fraudes, e queremos prever novas ocorrências. Qual tarefa devemos desenvolver primeiro:
+
+	a)Matriz de confusão
+	b)Coletar dados de produção
+	c)Construir o modelo
+	d)Calcular a lembrança
+
+	Resposta: Construir o modelo. A partir de um modelo que será possível fazer a previsão.
+
+2 – O analista dividiu dados em dois grupos de forma aleatória, uso o primeiro grupo para que o algoritmo conhecesse os dados, e o segundo grupo para ver como o algoritmo se saia prevendo a fraude. Que técnica de avaliação foi utilizada?
+
+	a) Hold out
+	b) Matriz de Confusão
+	c) Validação Cruzada
+	d) Cálculo de lembrança
+
+	Resposta: a) Hold out. O primeiro grupo, que é o de treino, estaria na proporção de 70% dos dados. O segundo que é o de teste representaria 30% dos dados.
+
+3 – O modelo foi construído e teve uma performance excelente no laboratório, mas sua performance não foi tão boa quando colocado em produção. O que provavelmente ocorreu:
+
+	a) Super ajuste
+	b) Generalização
+	c) Matriz de confusão calculada errada
+	d) Lembrança muito baixa
+
+	Resposta: Aconteceu um Super ajuste (a).
+
+4 – Na escola, a grande maioria dos alunos é aprovada, mas mesmo assim a diretoria quer reduzir o índice de reprovações. Constrói-se um modelo para prevenir possíveis reprovações. O modelo tem um péssimo desempenho em prever reprovações. Qual é a provável melhor explicação para este problema?
+
+	a) Super ajuste
+	b) Generalização
+	c) Taxa de erro baixa
+	d) Classe Rara
+
+	Resposta: É muito provável que esta classe a ser prevista é de pouca incidência, ou seja, Classe Rara (d)
+
+5 – O modelo foi construído e teve uma performance excelente no laboratório. Ao colocá-lo em produção o desempenho seguiu com performance semelhante a do ambiente de produção. Podemos dizer que ocorreu:
+	
+	a) Super ajuste
+	b) Generalização
+	c) Matriz de confusão calculada errada
+	d) Lembrança muito baixa
+
+	Resposta: Ocorreu uma Generalização (b).
+
+6 - Relacione as duas colunas:
+
+	a) Baseado na teoria das probabilidades				(d) Árvores de decisão
+	b) Induz estruturas do tipo if/then				(a) Naïve Bayes
+	c) Simula o comportamento do cérebro humano			(e) Baseado em Instância
+	d) Constrói estruturas com nodos intermediários e folhas	(b) Regras de decisão
+	e) Classifica novas instâncias em tempo de execução		(c) Redes Neurais artificiais
+
+
+7 – O analista dividiu os dados em diversos grupos semelhantes. Em seguida, usou todos os grupos menos um para o algoritmo aprender, e o grupo restante para avaliar o que foi aprendido. Repetiu o processo alterando o grupo usado para testar. Que técnica de avaliação foi utilizada?
+
+	a) Hold out
+	b) Matriz de Confusão
+	c) Validação Cruzada
+	d) Cálculo de lembrança
+
+	Resposta: c) Validação Cruzada
+
+8 – Dada a matriz de confusão abaixo:
+
+	
+	       | Aprovado | Reprovado |
+Aprovado       |   2800   |    600    |
+Reprovado      |    400   |    200    |
+
+
+Calcule:
+	a) Acertos				==> (VA + VR) / Total = (2800 + 200) / (2800 + 400 + 600 + 200) = 3000 / 4000 = 0.75 = 75,00%
+	b) Erros				==> (FA + FR) / Total = (600 + 400) / 4000 = 1000 / 4000 = 0.25 = 25,00%
+	c) Precisão				==> VA / (VA + FA) = 2800 / (2800 + 600) = 2800 / 3400 = 0.8235 = 82,35%
+	d) Positivos Verdadeiros		==> VA / (VA + FR) = 2800 / (2800 + 400) = 2800 / 3200 = 0.8750 = 87.50%
+	e) Positivos Falsos			==> FA / (VR + FA) = 400 / (200 + 400) = 400 / 600 = 0.6666 = 66.66%
+	f) Negativos Verdadeiros		==> VR / (VR + FA) = 200 / 600 = 0.3333 = 33.33%
+	g) Negativos Falsos			==> FR / (VA + FR) = 400 / (2800 + 400) = 400 / 3200 = 0.125 = 12.50%
+
+	Legenda: VA => Verdadeiro Aprovado que é Aprovado-Aprovado
+		 VR => Verdadeiro Reprovado que é Reprovado-Reprovado
+		 FA => Falso Aprovado que é Aprovado-Reprovado
+		 FR => Falso Reprovado que é Reprovado-Aprovado
+
+9 – Um modelo criado em cima de uma relação com 60 atributos não tem um bom desempenho. O analista vota a base de dados original e coleta mais 30 atributos, porém o desempenho do modelo não melhora. Qual é a provável causa da falha em se criar um bom modelo?
+	
+	a) Super ajuste
+	b) Generalização
+	c) Maldição da dimensionalidade
+	d) Classe Rara
+
+	Resposta: c) Maldição da dimensionalidade. O modelo possui muitos atributos o que pode estar tirando refinamento do modelo.

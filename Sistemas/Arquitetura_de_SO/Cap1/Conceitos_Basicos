@@ -1,0 +1,127 @@
+
+Parte I - Conceitos Básicos - Visão Geral
+
+Exercício 1. Como seria utilizar um computador sem um sistema operacional? Quais são suas duas principais funções?
+	
+	Resposta: Primeiramente precisamos entender qual o conceito de "sistema operacional":
+	
+	Basicamente o sistema operacional é responsável por fazer a interação entre o hardware e o software. Seu surgimento veio da necessidade de uma maior interação do 		usuário	com a máquina (hardware) já que para determinadas interações em um dispositivo sem sistema operaicional, era necessário um conhecimento mais específico do 		funcionamento do hardware, o que deixava a computação impopular.
+	
+	O sistema operacional entra nessa história como um mediador. O usuário solicita algo, o sistema operacional traduz para o hardware que executa a tarefa ou retorna 		alguma resposta.
+
+	O sistema operacional também é o grande responsável pelo gerenciamento dos recursos computacionais: compartilhamento da memória, processador, dispositivos de E/S, etc, 	de forma segura e protegidas
+
+	No livro: A página 3, que introduz o cápitulo, traz rápidas definições de sistema operacional.
+
+Exercício 2. Quais as principais dificuldades que um programador teria no desenvolvimento de uma aplicação em um ambiente sem um sistema operacional?
+
+	Resposta: Entre o usuário (nível mais alto) e a máquina (nível mais baixo) existem rotinas que são gerenciadas especificamente pelo sistema operacional, estas rotinas 		que acionam determinados componentes de hardware de forma segura e correta, isto faz com que o trabalho do hardware fique de certa forma transparente ao usuário.
+	
+	Antigamente os programadores que não tinham sistemas operacionais para auxiliar-lhes, precisavam ter grandes conhecimentos em hardware e sua arquitetura para poder 		programar. Como não havia uma interface para intermediar essa programação, o programador lhe dava com linguagem de programação complexa em paineis com várias entradas 		de fios.
+
+	"(...) O surgimento do sistema operacional minimizou esse problema, tornando a interação entre usuário e computador mais simples, confiável e eficiente."
+
+	No Livro: A página 5 resume a principal dificuldade do programador como "(...) A programação era realizada em linguagem de máquina, em painéis através de fios, exigindo 		consequentemente um grande conhecimento da arquitetura do hardware.
+
+Exercício 3. Explique o conceito de máquina virtual. Qual a grande vantagem em utilizar este conceito?
+
+	Resposta: As respostas até agora nos ilustram o quão transparente (não visível) o sistema operacional tenta deixar os processos realizados. Por	não conhecer a fundo as 	operações realizadas como por exemplo a gravação de um arquivo em disco rígido, fica a sensação de que, quem fez tudo foi o sistema operacional.
+	
+	Esta abstração de que temos em nossa frente apenas o sistema operacional e não o conjunto de hardware é o conceito de máquina virtual daí sua vantagem: simplicidadade 		na interação homem-máquina,segurança e confiabilidade já que quem irá reger tudo é o sistema operacional e não o usuário.
+
+Exercício 4. Defina o conceito de uma máquina de camadas:	
+	
+	Resposta: O computador pode ser visto como uma máquina de camadas onde sua parte mais elementar é a camada mais baixa e a medida que o nível da camada cresce torna-se 
+	mais próxima do usuário. Existe de fato esta hierarquia mas o usuário não precisa saber qual a camada acima ou abaixo. Para melhorar a experiência do usuário, um 		computador pode ter quantas camadas forem necessárias.
+
+Exercício 5. Quais os tipos de sistemas operacionais existentes?
+
+	Resposta: São 3: Monoprogramável, Multiprogramável e Multiprecessado
+
+Exercício 6: Por que dizemos que existe uma subutilização de recursos em sistemas monoprogramáveis?
+
+	Resposta: Neste tipo de sistema operacional o processamento de tarefas é realizado de forma enfileirada, ou seja, uma tarefa de cada vez. Enquanto determinada tarefa 		está sendo processada nenhuma outra poderá ser iniciada o que faz com que o tempo de execução de um lote de tarefas seja muito lento pois uma tarefa específica pode não 		utilizar todos os recursos computacionais. Hipoteticamente, uma tarefa usa 20% do processador e 15% da memória, o restante disponível poderia ser utilizado em outras    	 atribuições, evitando subtilização dos recursos.
+
+Exercício 7: Qual a grande diferença entre sistemas monoprogramáveis e sistemas multiprogramáveis?
+	
+	Resposta: O sistema multiprogramavel não tem este enfileiramento de tarefas, ou seja, o sistema consegue processar várias tarefas ao mesmo tempo compartilhando os 		mesmos recursos.
+
+Exercício 8: Quais as vantagens dos sistemas multiprogramáveis?
+
+	Resposta: O tempo de processamento das tarefas é menor com sistemas multiprogramáveis, os recursos são utilizados de forma mais eficiente e é possível ter a interação 		com o usuário por meio de dispositivos de E/S.
+
+Exercício 9: Um sistema monousuário pode ser um sistema multiprogramável? Dê um exemplo.
+
+	Resposta: Sim! Os sistemas operacionais de computadores pessoais são bons exemplos. Um único usuário tem acesso a vários programas de um único computador. Monousuário 		com um sistema multiprogramável.
+
+Exercício 10: Quais são os tipos de sistemas multiprogramáveis?
+
+	Resposta: Sistema em Batch (lote), Sistema Time-sharing (tempo compartilhado) e Sistema Real-time (tempo real).
+
+Exercício 11: O que caracteriza o processamento em batch? Quais aplicações podem ser processadas neste tipo de ambiente?
+
+	Resposta: O processamento em batch é quando uma quantidade x de instruções é armazenada em determinado recipiente (lote) para ser processado de uma única vez, sem 		necessitar de interações do usuário.
+
+	Antigamente a programação era feita desta forma. Todas as instruções eram armazenadas em um cartão perfurado e enviado a uma compiladora. Os compiladores de programação 		trabalham de forma semelhante: escrevemos todas as instruções em um editor de texto e usamos um compilador para transformar aquele monte de instruções em um único 		arquivo executável.
+
+Exercício 12: Como funciona os sistemas de tempo compartilhado? Quais as vantagens em utilizá-los?
+
+	Resposta: No sistema de time-sharing (tempo compartilhado), o processador divide seu tempo em pequenos pedaços (dá-se aí o nome time-slice) e compartilha com as 		aplicações. Esta divisão de intervalos permite a execução simultânea de tarefas fazendo ser possível a interação com o usuário pelos dispositivos E/S.
+
+Exercício 13: Qual a grande diferença entre sistema de tempo compartilhado e sistemas de tempo real? Quais aplicações são indicadas para sistemas de tempo real?
+
+	Resposta: A principal diferença está no tempo de execução. O sistema de tempo real leva em consideração a prioridade da aplicação fazendo com que, se for necessário, 		todo o seu processamento vá exclusivamente para uma aplicação. Por isso este tipo de sistema é indicado para situações que tenha criticidades.
+
+Exercício 14: O que são sistemas com multiplos processadores e quais as vantagens em utilizá-los?
+
+	Resposta: Sistemas com multiprocessadores são sistemas mais avançados que disponibilizam maior potência pois permite o uso de dois ou mais processadores. Isto gera 		maior eficiência no processamento de uma ou mais tarefas. As tarefas são divididas entre os processadores, que usam sua capacidade para processar o "pedaço".
+
+	As vantagens são: Escalabilidade, possibilidade de aumentar o número de processadores; Disponibilidade, direcionamenoto do processamento da carga conforme cada 		processador; Balanceamento, distribui o processamento de carga para os processadores, além disso, se um processador falhar, a carga é redistribuida de forma que 	o processamento seja devidamente completado.
+
+Exercício 15: Quais as diferenças entre sistemas fortemente acoplados e fracamente acoplados?
+
+	Resposta: Os sistemas fortemente acoplados compartilham a mesma memória física e dispositivos de E/S, sendo gerenciado por apenas um sistema operacional. No sistema 		fracamente acoplado, cada sistema computacional tem seu próprio ambiente, ou seja, cada sistema possui seu processador, memória, dispositivos E/S e sistema operacional, 		compartilhando recursos, por meio de uma determinada linha de comunicação.
+
+	Ou seja, a diferença maior está na sua forma de compartilhamento de recursos.
+
+Exercício 16: O que é um sistema SMP? Qual a diferença para o sistema assimétrico?
+
+	Resposta: SMP é um sistema multiprogramável fortemente acoplado que compartilha de forma uniforme determinada tarefa com os processadores designados, ou seja, o tempo 		de à memória física é paralelo. No sistema não simétrico não há este paralelismo o que faz com o que o acesso à memória seja dependente do conjunto de processadores e 		localização física.
+
+Exercício 17: O que é um sistema fracamente acoplado? Qual a diferença entre os sistemas operacionais de rede e os sistemas operacionais distribuidos? 
+
+	Resposta: No sistema fracamente acoplado, cada sistema computacional tem seu próprio ambiente, ou seja, cada sistema possui seu processador, memória, dispositivos E/S e 		sistema operacional, compartilhando recursos, por meio de uma determinada linha de comunicação.
+
+	Nos sistemas operacionais de rede, basicamente dois ou mais dispositivos compartilham recursos, como por exemplo uma impressora compartilhando seu recurso de imprimir. 	Nos sistemas operacionais distribuidos há um conjunto de sistemas operacionais de rede, cada componente independente, que compartilha seus recursos. Este tipo de 		sistema tem a aparência de um sistema único, o que remete a um sistema fortemente acoplado.
+
+Exercício 18: Quais os benefícios de um sistema com múltiplos processadores em um computador pessoal?
+
+	Resposta: A experiência do usuário será maximizada já que ele conseguirá utilizar várias aplicações ao mesmo tempo sem perder usabilidade do sistema operacional. Cada 		aplicação será dividida entre os processadores.
+
+Exercício 19: Qual seria o tipo de sistema operacional recomendável para o uso como servidor de aplicações em um ambiente corporativo?
+
+	Definição de servidor de aplicação: Um Servidor de Aplicações (em inglês Applications Server), é um servidor que disponibiliza um ambiente para a instalação e execução 	de certas aplicações, centralizando e dispensando a instalação nos computadores clientes. Os servidores de aplicação também são conhecidos por middleware.
+	https://pt.wikipedia.org/wiki/Servidor_de_aplica%C3%A7%C3%A3o
+
+	Resposta: Verificando que o um servidor disponibiliza o seu ambiente, ou seja, seu processador, memória, etc, e omite estas informações já que o usuário de um servidor 	de aplicações está preocupado com a funcionalidade do arquivo independente da infraestrutura, o sistema distribuido (sistema operacional com multiplos processadores 		fracamente acoplado).
+
+Exercício 20: Qual seria o tipo de sistema operacional recomendável para executar uma aplicação que manipula grande volume de dados e necessita de um baixo tempo de 	processamento?
+
+	Resposta: Como o tempo é um fator fundamental, um sistema operacional de tempo real seria o mais indicado.
+	
+
+Referências úteis:
+
+Sistemas Operacionais Fortemente e Fracamente Acoplados Lorena Nayá Nascimento Araújo - Instituto de Tecnologia (ITEC) – Universidade Federal do Pará (UFPA) - Faculdade de Engenharia da Computação e Telecomunicações (FCT) - Belém – Pará – Brasil 
+
+http://www.inf.puc-rio.br/~francis/aso3ed/solexerc-v3.2-Jan-2005.pdf
+
+http://www.jairo.pro.br/introd_sist_operac/readfile.php?wget=semana05.pdf
+
+https://sites.google.com/site/proffernandosiqueiraso/aulas/12-estudo-de-caso-unix-vs-windows
+
+ftp://ctic.univap.br/pub/manutencao/Drivers/CD_Rec_HDs_e_Outros/Cursos%20e%20Apostilas/Computacao%20Instrumental%202.pdf
+
+http://www.jairo.pro.br/introd_sist_operac/lista.php
+
+https://www.youtube.com/channel/UCfm5J7qGMBgupvKddelZSSA

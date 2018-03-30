@@ -1,0 +1,52 @@
+// Veja mais resoluções de exercícios em nosso blog
+// https://exata0mente.blogspot.com.br/
+
+Parte I - Conceitos de Hardware e Software
+
+Exercício 1. Quais são as unidades funcionais de um sistema computacional?
+
+Exercício 2. Quais os componentes de um processador e quais suas funções?
+
+Exercício 3. Como a memória principal de um computador é organizada?
+
+Exercício 4. Descreva os ciclos de leitura e gravação da memória principal.
+
+Exercício 5. Qual o número máximo de células endereçadas em arquiteturas com MAR de 16, 32 e 64 bits?
+
+Exercício 6. O que são memórias voláteis e não voláteis?
+
+Exercício 7. Conceituo memória cache e apresente as principais vantagens em seu uso.
+
+Exercício 8. Qual a importância do príncipio da localidade na eficiência da memória cache?
+
+Exercício 9. Quais os benefícios de uma arquitetura de memória cache com múltiplos níveis?
+
+Exercício 10. Quais as diferenças entre a memória principal e a memória secundária?
+
+Exercício 11. Diferencie as funções básicas dos disposítivos de E/S.
+
+Exercício 12. Caracterize os barramentos processador-memória, E/S e backplane.
+
+Exercício 13. Como a técnica de pipelining melhora o desempenho dos sistemas computacionais?
+
+Exercício 14. Campare as arquiteturas de processadores RISC e CISC.
+
+Exercício 15. Conceitue a técnica de benchmark e como é sua realização.
+
+Exercício 16. Por que o código-objeto gerado pelo tradutor ainda não pode ser executado?
+
+Exercício 17. Por que a execução de programas interpretados é mais lenta que a de programas compilados?
+
+Exercício 18. Quais as funções do linker?
+
+Exercício 19. Qual a principal função do loader?
+
+Exercício 20. Quais as facilidades oferecidas pelo depurador?
+
+
+Referências úteis:
+
+http://www.hardware.com.br/termos/memoria-cache
+http://www.clubedohardware.com.br/artigos/Como-o-Cache-de-Memoria-Funciona/1410/4
+https://pt.wikipedia.org/wiki/Pipeline_(hardware)
+www.infoescola.com/informatica/memoria-cache

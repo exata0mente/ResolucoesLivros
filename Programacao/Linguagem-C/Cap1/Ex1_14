@@ -1,0 +1,188 @@
+//Linguagem C, 10 edição - Luis Damas
+//Capítulo 1 - O meu primeiro programa
+//Exercícios 1 a 14
+//Acesse nossa página de resolução dos exercícios: https://exata0mente.blogspot.com/
+
+Exercício 1. Qual a função que deve estar presente em todos os programas?
+
+	Resposta: A função main(), pois ela indica que todos as instruções, ou chamadas à estas, passarão por ela.
+	
+Exercício 2. Como devem terminar todas as instruções em C?
+
+	Resposta: Como o caractere ';' pois este indica que o final de uma instrução.
+	
+Exercício 3. Como é delimitado um bloco em C?
+
+	Resposta: Pelo conjunto de chaves '{' e '}'. Tudo o que estiver entre esses caracteres serão consideradas instruções do bloco.
+	
+Exercício 4. A função printf() é parte integrante da linguagem C?
+
+	Resposta: Não. A função printf() é uma função definida na biblioteca stdio.h.
+	
+Exercício 5. Para que serve a linha #include<stdio.h> num programa?
+
+	Resposta: Adicionar ao programa, por meio do pré-processador, várias instruções que estão gravadas na biblioteca stdio.h, como por exemplo a função printf().
+	
+Exercício 6. A extensão .h indica que o arquivo correspondente é composto por... ?
+
+	Resposta: Cabeçalhos das funções
+	
+Exercício 7. Os arquivos com a extensão .h também são conhecidos por... ?
+
+	Resposta: header files
+	
+Exercício 8. Por que razão não se utilizou a linha #include<stdio.h> no prog0101.c ?
+
+	Resposta: Pois neste arquivo nenhuma função não existente em C foi chamada. Há apenas a função main(), que está incluída por padrão no C.
+	
+Exercício 9. Dentro de uma string pode-se usar letras maiúsculas? Justifique:
+
+	Resposta: Sim. As strings são delimitadas por "", e dentro das aspas podemos digitar qualquer texto com letras maíusculas ou minúscula. "OLÁ MUNDO" e "Olá Mundo" são strings válidas e diferentes.
+	
+Exercício 10. Qual o significado de stdio?
+
+	Resposta: standart input/output -> padrão entrada/saída
+	
+Exercício 11. Identifique os erros de compilação que seriam detectados nos seguintes programas:
+
+	11.1
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		 
+		#include<stdio.h>
+		Main() /*Esta função Main() não existe em c, logo o compilador apresentaria erro*/
+		{
+			printf("Hello World");
+		}
+	
+	11.2
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		
+		#include<stdio.h>
+		main /* Funções são sempre precedidas de parenteses, logo o compilador iria reportar erro*/
+		{
+			printf("Hello World");
+		}
+	
+	11.3
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		
+		#include<stdio.h>
+		main()
+		{
+			print ("Hello World"); /*Nem em C e nem na biblioteca stdio possui uma funação chamada print() */
+		}
+		
+	11.4
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		
+		#include<stdio.h>
+		main()
+		{
+			printf("Hello")("World"); /*Não existe esta separação nos parâmetros de funções */
+		}
+		
+	11.5
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 /* <- O fechamento do comentário está incorreto
+		
+		#include<stdio.h>
+		main()
+		{
+			printf("Hello World");
+		}
+		
+		*/
+	11.6
+		/* 
+		/* Copyright: Asneira Suprema Software!!!
+		 */<- Este fechamento do comentário está valendo! É como se dentro de um comentário estivesse outro comentário.
+		 
+		 
+		#include<stdio.h>
+		main()
+		{
+			printf("Hello World");
+		}
+		
+	11.7
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		
+		#include<stdio.h>
+		main()
+		{
+			printf(Hello World); /*O Hello World não está como string*/
+		}
+		
+	11.8
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		
+		#include<stdio.h>
+		main()
+		{
+			printf("Hello World") /*Falta o ';' para indicar o fim da instrução*/
+		}
+		
+	11.9
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		
+		include<stdio.h> /*Falta o caractere '#'*/
+		main()
+		{
+			printf("Hello World");
+		}
+	11.10
+		/*
+		 * Copyright: Asneira Suprema Software!!!
+		 */
+		
+		#include<stdio.h>
+		main()
+		{
+			printf('Hello World'); /*As aspas simples são utilizadas para caracteres e não para strings*/
+		}
+
+Exercício 12. Os comentários devem ser escritos
+	
+	a) Antes de qualquer instrução do programa.
+	b) Depois de todas as instruções.
+	c) Antes do main.
+	d) Sempre que o programador ache necessário e conveniente.
+	
+	Resposta: d)
+	
+Exercício 13. Um programa em C, que tenha comentário no seu código, é, em relação a outro que não os tenha,
+
+	a) Mais rápido para executar.
+	b) Mais lento para executar.
+	c) Executado praticamente a mesma velocidade, pois os comentários exigem uma utilização ínfima da CPU.
+	d) Executado a mesma velocidade, pois os comentários são simplesmente ignorados pelo compilador, não havendo qualquer reflexo deles no tempo de execução.
+	
+	Resposta: d)
+	
+Exercício 14. Indique se são verdadeiras ou falsas as seguintes afirmações:
+
+	Os Comentários
+	
+	a) só podem ocupar uma única linha.												//Falso
+	b) podem ocupar várias linhas.													//Verdadeiro
+	c) podem conter outros comentários dentro.										//Verdadeiro
+	d) começam por '/*' e terminam com '*/'.										//Verdadeiro
+	e) Não tem qualquer influencia na velocidade de execução de um programa.		//Verdadeiro
+	f) Tem que começar no início de uma linha.										//Falso
+	g) Quando ocupam apenas uma linha não precisam terminar por '*/'				//Falso
+	
