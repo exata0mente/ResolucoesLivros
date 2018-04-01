@@ -13,19 +13,23 @@ Ciencia_dos_Dados | Livros que envolvem todos os conteúdos aplicados à DS.
 
 ## Livros
 
-### Livros em Leitura e Resolução:
+### Livros neste repositório:
 Os livros que estou estudando atualmente são:
 
-* Treinamento em Linguagem C - Victorine Mizrahi.
+* (Em andamento) MIZRAHI, Victorine Viviane. **Treinamento em linguagem C**. McGraw-Hill, 1990.
+* (Congelado) HEUSER, Carlos Alberto. **Projeto de banco de dados: Volume 4 da Série Livros didáticos informática UFRGS**. Bookman Editora, 2009.
+* (Congelado) AMARAL, Fernando. **Aprenda Mineração de Dados: Teoria e prática**. Alta Books Editora, 2016.
+* (Congelado) DAMAS, Luis. **Linguagem C. 10ª Edição**. LTC editora, São Paulo–SP, Brasil, 2007.
+* (Abandonado) MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**. LTC, 2004.
 
 
 ### Próximos Livros
 Aqui listo os livros que pretendo ler, se houver, documentar minhas respostas dos questionários. Não estará listado na ordem de prioridade,
 
-- [ ] C++ *Black Book*: Guia Completo para Resoluções de Problemas - Steven Holzner.
-- [ ] O Programador Pragmático: De aprendiz a mestre - Andrew Hunt e David Thomas.
-- [ ] Sistemas de Banco de Dados - Abrahan Silberschatz, Henry Korth, Sundarshan.
-- [ ] Código Limpo: Habilidades Práticas de *Ágile Software* - Robert Martin.
+* HOLZNER, Steven. **C++ Black Book - Guia Completo para Resolução de Problemas**. 2001.
+* HUNT, Andrew; THOMAS, David. **O Programador Pragmático: de aprendiz a mestre**. Bookman Editora, 2009.
+* SUDARSHAN, S.; SILBERSCHATZ, Abraham; KORTH, F. Henry. **Sistemas de Banco de Dados**. 3ª. Edição. 1999.
+* MARTIN, Robert C. et al. **Código limpo: habilidades práticas do Agile software**. Rio de Janeiro-RJ: Alta Books, 2009.
 
 Por favor, recomende livros :smile:
 
@@ -34,6 +38,9 @@ Livros que já terminei de ler, e minhas impressões e recomendações.
 
 ## Livros Abandonados
 Não dá para terminar todo livro que começamos, seja por tempo, desenvolvimento do assunto ou interesse. Aqui descreverei meus motivos (será mais como nota mental).
+
+* MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**. LTC, 2004
+  * Este é com certeza um livro de bastante conteúdo e muito utilizado academicamente para referências. O motivo para o qual eu tenha abando o  estudo é que de fato houve uma mudança de foco.
 
 ## Algo de errado não está certo
 
