@@ -6,10 +6,10 @@ Neste repositório terá todas as resoluções que de exercícios de livros que 
 
 Pasta | Descrição
 ------| ---------
-Programacao | Livros referente a lógica e linguagens de programação.
-Banco_de_Dados | Livros referente a modelagem e linguagens de banco de dados.
-Sistemas | Livros referente a conceitos gerais como SO, Arquitetura de SO, Hardware, etc.
-Ciencia_dos_Dados | Livros que envolvem todos os conteúdos aplicados à DS.
+[Programacao](Programacao/) | Livros referente a lógica e linguagens de programação.
+[Banco_de_Dados](Banco_de_Dados/) | Livros referente a modelagem e linguagens de banco de dados.
+[Sistemas](Sistemas/) | Livros referente a conceitos gerais como SO, Arquitetura de SO, Hardware, etc.
+[Ciencia_dos_Dados](Ciencia_dos_Dados) | Livros que envolvem todos os conteúdos aplicados à DS.
 
 ## Livros
 
