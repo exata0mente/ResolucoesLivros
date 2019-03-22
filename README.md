@@ -2,7 +2,7 @@
 
 Neste repositório terá todas as resoluções que de exercícios de livros que documentei, sendo eles da área de computação (não é uma condição exclusiva. Posso acabar inserindo de outros temas). Sinta-se a vontade para consumir, corrigir ou colaborar com mais exercícios e dicas.
 
-## Divisão do repositório
+## Esturutra das pastas do repositório
 
 
 * [Programacao](Programacao/) - Livros referente a lógica e linguagens de programação.
@@ -15,36 +15,43 @@ Neste repositório terá todas as resoluções que de exercícios de livros que 
 * [Ciencia_dos_Dados](Ciencia_dos_Dados/) - Livros que envolvem todos os conteúdos aplicados à DS.
  * [Aprenda Mineração de Dados](Ciencia_dos_Dados/Livro_Aprenda_Mineracao_Dados) - AMARAL, Fernando. Aprenda Mineração de Dados: Teoria e prática.
 
-## Livros
+## Progresso dos livros
 
-### Livros neste repositório:
-Os livros que estou estudando atualmente são:
+Abaixo vamos listar o status de cada livro, dificuldade e o colaborador que está trabalhando na respostas. Seguiremos a seguinte legenda:
 
-* (Em andamento) MIZRAHI, Victorine Viviane. **Treinamento em linguagem C**. McGraw-Hill, 1990.
-* (Congelado) HEUSER, Carlos Alberto. **Projeto de banco de dados: Volume 4 da Série Livros didáticos informática UFRGS**. Bookman Editora, 2009.
-* (Congelado) AMARAL, Fernando. **Aprenda Mineração de Dados: Teoria e prática**. Alta Books Editora, 2016.
-* (Congelado) DAMAS, Luis. **Linguagem C. 10ª Edição**. LTC editora, São Paulo–SP, Brasil, 2007.
-* (Abandonado) MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**. LTC, 2004.
+**Status**
+* :pencil: `:pencil:`  - Resolução dos exercícios em andamento.
+* :heavy_check_mark: `:heavy_check_mark:` - Resolução dos exercícios finalizadas.
+* :zzz: `:zzz:` - Resolução dos exercícios congelada ou inativa.
+* :raising_hand_woman: `:raising_hand_woman:` - Resolução dos exercícios necessita de ajuda ou revisão
+* :love_letter:`:love_letter:` Resolução dos exercícios solicitada pela comiunidade.
+* :runner: `:runner:` - Resolução dos exercícios abandonada.
+* :watch: `:watch:` - Resolução dos exercícios em análise
+**Dificuldade**
 
+* :sunny:`:sunny:` Exercícios de nível básico
+* :sun_behind_small_cloud: `:sun_behind_small_cloud:` - Exercícios de nível intermediário
+* :sun_behind_rain_cloud:`:sun_behind_rain_cloud:` Exercícios de nível avançado
+
+### Lista de Livros
+
+Status / Dificuldade | Livro | Capítulo Atual | Colaborador(es)|
+-------------------- |-------|----------------|----------------|
+:zzz::sunny:| MIZRAHI, Victorine Viviane. **Treinamento em linguagem C**.|7 de ?| @exata0mente
+:zzz::sunny:| HEUSER, Carlos Alberto. **Projeto de banco de dados: Volume 4 da Série Livros didáticos informática UFRGS** | 1 de ? | @exata0mente
+:zzz::sun_behind_small_cloud: | AMARAL, Fernando. **Aprenda Mineração de Dados: Teoria e prática**. | 1 de ? | @exata0mente
+:zzz::sunny:| DAMAS, Luis. **Linguagem C. 10ª Edição**. | 1 de ? | @exata0mente
+:runner::sun_behind_small_cloud:|MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**.| 1 de ? | @exata0mente
+:watch::sun_behind_small_cloud:| **C++ Black Book - Guia Completo para Resolução de Problemas** | ? |
+:watch::sun_behind_small_cloud:|THOMAS, David. **O Programador Pragmático: de aprendiz a mestre**.|?|
+:watch::sun_behind_rain_cloud:| SUDARSHAN, S.; SILBERSCHATZ, Abraham; KORTH, F. Henry. **Sistemas de Banco de Dados** | ? |
+:watch::sun_behind_small_cloud:|MARTIN, Robert C. et al. **Código limpo: habilidades práticas do Agile software** | ? |
 
 ### Próximos Livros
-Aqui listo os livros que pretendo ler, se houver, documentar minhas respostas dos questionários. Não estará listado na ordem de prioridade,
 
-* HOLZNER, Steven. **C++ Black Book - Guia Completo para Resolução de Problemas**. 2001.
-* HUNT, Andrew; THOMAS, David. **O Programador Pragmático: de aprendiz a mestre**. Bookman Editora, 2009.
-* SUDARSHAN, S.; SILBERSCHATZ, Abraham; KORTH, F. Henry. **Sistemas de Banco de Dados**. 3ª. Edição. 1999.
-* MARTIN, Robert C. et al. **Código limpo: habilidades práticas do Agile software**. Rio de Janeiro-RJ: Alta Books, 2009.
+Caso queira que algum livro entre nessa lista, abra uma issue solicitando a avaliação da resolução do livro ou então coloque você mesmo nesta lista.
 
-Por favor, recomende livros :smile:
-
-### Livros Concluídos
-Livros que já terminei de ler, e minhas impressões e recomendações.
-
-## Livros Abandonados
-Não dá para terminar todo livro que começamos, seja por tempo, desenvolvimento do assunto ou interesse. Aqui descreverei meus motivos (será mais como nota mental).
-
-* MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**. LTC, 2004
-  * Este é com certeza um livro de bastante conteúdo e muito utilizado academicamente para referências. O motivo para o qual eu tenha abando o  estudo é que de fato houve uma mudança de foco.
+Aproveito para indicar o post que criamos sobre [como trabalhar colaborativamente com o GitHub](https://exata0mente.com.br/resp/como-trabalhar-colaborativamente-utilizando-o-github)
 
 ## Algo de errado não está certo
 
@@ -52,12 +59,9 @@ As "soluções" que aqui constam foram criadas no decorrer do periodo acadêmico
 
 ## Pensamento colaborativo
 
-Que tal colaborar? Dê um fork neste repositório e continue a resolução do livro. Vamos montar uma comunidade legal de resolução de exercícios?
+Caso queira saber mais como colaborar, dê uma olhada no nosso [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## Tarefas do repositório
-
-- [ ] iss001 - Colocar README.md em todas as pastas.
 
 ## Contato
 
-ricardoap.bezerra@gmail.com
+exata0mente@gmail.com
