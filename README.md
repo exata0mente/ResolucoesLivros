@@ -6,14 +6,14 @@ Neste repositório terá todas as resoluções que de exercícios de livros que 
 
 
 * [Programacao](Programacao/) - Livros referente a lógica e linguagens de programação.
- * [Linguagem C](Programacao/Linguagem-C) - DAMAS, Luis. **Linguagem C. 10ª** Edição.
- * [Treinamento em Linguagem C](Programacao/Treinamento_em_Linguagem_C) - MIZRAHI, Victorine Viviane. **Treinamento em linguagem C**.
+  * [Linguagem C](Programacao/Linguagem-C) - DAMAS, Luis. **Linguagem C. 10ª** Edição.
+  * [Treinamento em Linguagem C](Programacao/Treinamento_em_Linguagem_C) - MIZRAHI, Victorine Viviane. **Treinamento em linguagem C**.
 * [Banco_de_Dados](Banco_de_Dados/) - Livros referente a modelagem e linguagens de banco de dados.
- * [Projeto de Banco de Dados](Banco_de_Dados/Projeto_de_BD) - HEUSER, Carlos Alberto. **Projeto de banco de dados: Volume 4 da Série Livros didáticos informática UFRGS**
+  * [Projeto de Banco de Dados](Banco_de_Dados/Projeto_de_BD) - HEUSER, Carlos Alberto. **Projeto de banco de dados: Volume 4 da Série Livros didáticos informática UFRGS**
 * [Sistemas](Sistemas/) - Livros referente a conceitos gerais como SO, Arquitetura de SO, Hardware, etc.
- * [Arquitetura de Sistemas Operacionais](Sistemas/Arquitetura_de_SO) - MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**
+  * [Arquitetura de Sistemas Operacionais](Sistemas/Arquitetura_de_SO) - MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**
 * [Ciencia_dos_Dados](Ciencia_dos_Dados/) - Livros que envolvem todos os conteúdos aplicados à DS.
- * [Aprenda Mineração de Dados](Ciencia_dos_Dados/Livro_Aprenda_Mineracao_Dados) - AMARAL, Fernando. Aprenda Mineração de Dados: Teoria e prática.
+  * [Aprenda Mineração de Dados](Ciencia_dos_Dados/Livro_Aprenda_Mineracao_Dados) - AMARAL, Fernando. Aprenda Mineração de Dados: Teoria e prática.
 
 ## Progresso dos livros
 
