@@ -27,8 +27,8 @@ Abaixo vamos listar o status de cada livro, dificuldade e o colaborador que est�
 * :love_letter:`:love_letter:` Resolução dos exercícios solicitada pela comiunidade.
 * :runner: `:runner:` - Resolução dos exercícios abandonada.
 * :watch: `:watch:` - Resolução dos exercícios em análise
-**Dificuldade**
 
+**Dificuldade**
 * :sunny:`:sunny:` Exercícios de nível básico
 * :sun_behind_small_cloud: `:sun_behind_small_cloud:` - Exercícios de nível intermediário
 * :sun_behind_rain_cloud:`:sun_behind_rain_cloud:` Exercícios de nível avançado
@@ -64,4 +64,4 @@ Caso queira saber mais como colaborar, dê uma olhada no nosso [CONTRIBUTING.md]
 
 ## Contato
 
-exata0mente@gmail.com
+exata0mente@gmail.com.
