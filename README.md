@@ -59,8 +59,11 @@ As "soluções" que aqui constam foram criadas no decorrer do periodo acadêmico
 
 ## Pensamento colaborativo
 
-Caso queira saber mais como colaborar, dê uma olhada no nosso [CONTRIBUTING.md](CONTRIBUTING.md)
+Caso queira saber mais como colaborar, dê uma olhada no nosso [CONTRIBUTING.md](docs/CONTRIBUTING.md)
 
+## Conseguimos te ajudar? :heart_eyes:
+
+Oba! Dever cumprido. Que tal dar uma "estrelada" :star: no nosso repositório? Assim poderemos alcançar mais e mais pessoas.
 
 ## Contato
 
