@@ -1,10 +1,15 @@
 ---
-name: 'Revisão de resposta'
-label: revisar
+name: Revisão de resposta
+about: 'Esta issue refere-se a solicitação de revisão de algum exercício que já esteja
+  respondido. '
+title: ''
+labels: revisar
 assignees: exata0mente
+
 ---
+
 <!--
-Esta label refere-se a solicitação de revisão de algum exercício que já esteja respondido. Para que o processo seja realizado de forma assertiva, por gentileza preencha o máximo de campos possíveis abaixo.
+Para que o processo seja realizado de forma assertiva, por gentileza preencha o máximo de campos possíveis abaixo.
 -->
 ## Dados do exercício
 **Nome do livro**: Nome do livro ao qual o exercício está associado.
