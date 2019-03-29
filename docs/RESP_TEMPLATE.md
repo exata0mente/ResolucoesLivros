@@ -4,23 +4,27 @@ Este template indicará como deverá ser as respostas dos exercícios que você 
 
 ## Sobre a localização do arquivo
 
-Veja primeiramente se o livro que está a responder já não esteja no repositório. De qualquer forma, devemos seguir a seguinte estrutura:
+Pensando em manter um padrão no nosso repositório, iremos estabelecer a seguinte estrutura de diretórios
 
-**Topico/Nome_Livro/Cap_n/ex_m.k**
+**Topico/Nome_Livro/Cap_`n`/ex_`m`.`k`**
 
 onde:
 
-* n: é o número do capítulo
-* m: é o número do exercício
-* k: é a extenção (veja mais detalhes no tópico abaixo)
+* `n`: é o número do capítulo
+* `m`: é o número do exercício
+* `k`: é a extenção (veja mais detalhes no tópico abaixo)
 
 ## Sobre a extenção do arquivo
 
-É importante que o arquivo esteja de acordo com o que você esteja respondendo. Por exemplo, se estiver resolvendo um exercício de algoritmo em C então o arquivo dever ser `exercicio_n.C`, algo em R então `exercicio_n.R` e assim por diante. Caso seja um exercício conceitual, usar a extenção `.md`. Desta forma vamos usufruir do *[linguist library](https://help.github.com/en/articles/about-repository-languages)* do GitHub e melhorar nossa posição nos mecanismos de busca de repositórios.
+É importante que a extensão do arquivo esteja de acordo com o a linguagem (se aplicável) do exercício que esteja respondendo. Por exemplo, se estiver resolvendo um exercício de algoritmo em C então o arquivo dever ser `exercicio_n.C`, algo em R então `exercicio_n.R` e assim por diante.
+
+Caso seja um exercício conceitual, usar a extenção `.md`. Desta forma vamos usufruir do *[linguist library](https://help.github.com/en/articles/about-repository-languages)* do GitHub e melhorar nossa posição nos mecanismos de busca de repositórios.
 
 ## Sobre a descrição do exercício
 
 Vamos manter as informações pertinentes ao exercício para que mais pessoas possam encontrá-los. Façamos da seguinte forma:
+
+*A resposta deverá conter um no início do código as informações abaixo como comentário.*
 
 ```c
 /*
