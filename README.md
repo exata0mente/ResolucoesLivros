@@ -1,3 +1,7 @@
+[![Licença](https://img.shields.io/github/license/exata0mente/ResolucoesLivros.svg)](https://img.shields.io/github/license/exata0mente/ResolucoesLivros.svg)
+[![Issues Abertas](https://img.shields.io/github/issues/exata0mente/ResolucoesLivros.svg)](https://img.shields.io/github/issues/exata0mente/ResolucoesLivros.svg)
+[![Commits Mês](https://img.shields.io/github/commit-activity/m/exata0mente/ResolucoesLivros.svg)](https://img.shields.io/github/commit-activity/m/exata0mente/ResolucoesLivros.svg)
+[![Colaboradores](https://img.shields.io/github/contributors/exata0mente/resolucoeslivros.svg)](https://img.shields.io/github/contributors/exata0mente/resolucoeslivros.svg)
 # Resolução de Exercícios de Livros
 
 Neste repositório terá todas as resoluções que de exercícios de livros que documentei, sendo eles da área de computação (não é uma condição exclusiva. Posso acabar inserindo de outros temas). Sinta-se a vontade para consumir, corrigir ou colaborar com mais exercícios e dicas.
