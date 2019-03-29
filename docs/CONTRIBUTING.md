@@ -10,7 +10,7 @@ Esse é o nosso *core*. Você pode submeter resposta de livros que já estejam e
 
 ### Respostas para livros em andamento.
 
-Deve-se realizar o nosso processo normal de uma pull request, porém com algumas alterações:
+Deve-se realizar o nosso [processo normal de uma pull request](PULL_REQUEST_TEMPLATE.md), porém com algumas alterações:
 
 #### Alterar o status do livro na lista
 
