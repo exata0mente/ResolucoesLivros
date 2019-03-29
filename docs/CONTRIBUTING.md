@@ -14,7 +14,7 @@ Deve-se realizar o nosso [processo normal de uma pull request](PULL_REQUEST_TEMP
 
 #### Alterar o status do livro na lista
 
-No nosso arquio [README](README.md) alterar a coluna **Status/Dificuldade** do livro para :pencil: (em andamento) e adicionar seu usuário na coluna **Colaborador(es)**.
+No nosso arquio [README](../README.md) alterar a coluna **Status/Dificuldade** do livro para :pencil: (em andamento) e adicionar seu usuário na coluna **Colaborador(es)**.
 
 :warning: **Importante**: Manter o layout de resolução de exercícios conforme [template](RESP_TEMPLATE.md). Não esqueça de incluir seu nome na descrião `revisado_por`.
 
@@ -29,7 +29,7 @@ Temos duas formas de agir neste contexto: **realizar** a revisão de um exercíc
 
 Temos também um [guia](docs/RESP_TEMPLATE.md) para mantermos um padrão na forma em que as respostas serão inseridas, mantendo uma identidade visual.
 
-### Solicitando a correção do exercícios
+### Solicitando a revisão de uma reposta
 
 A solicitação deverá partir da [abertura de uma issue](https://github.com/exata0mente/ResolucoesLivros/issues/new).
 
