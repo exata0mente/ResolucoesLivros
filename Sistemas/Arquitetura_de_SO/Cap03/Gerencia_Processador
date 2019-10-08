@@ -1,0 +1,261 @@
+
+Parte VIII - Gerência de recursos - Gerência do processador
+
+Exercício 1. O que é uma política de escalonamento de processo?
+
+	É uma política, composta por critérios estabelecidos, que define qual dos processos em estado
+	de pronto será escolhido para usar o processador.
+
+Exercício 2. Quais as funções do escalonador e do dispatcher ?
+
+	O escalonador é responsável por implementar os critérios da política de escalonamento.
+	O dispatcher é responsável pela troca de contexto dos processos, o que ocorre após o
+	escalonador determinar qual processo deve fazer uso do processador.
+
+Exercício 3. Quais os principais critérios utilizados pela política de escalonamento ?
+
+	Utilização do processador: na maioria dos sistemas é desejável que o processador passe maior
+	parte do seu tempo ocupado.
+	Throughput: quanto maior o throughput, maior o número de tarefas executadas em função do
+	tempo. A maximização do throughput é desejada na maioria dos sistemas.
+	Tempo de processador: é o tempo que um processo leva no estado de execução durante seu
+	processamento.
+	Tempo de espera: é o tempo que um processo permanece na fila de pronto durante seu
+	processamento, aguardando para ser executado. A redução do tempo de espera dos processos é
+	desejada pela maioria das políticas de escalonamento.
+	Tempo de turnaround: é o tempo que um processo desde a sua criação até seu término,
+	levando em consideração todo o tempo gasto na espera para alocação de memória, espera na
+	fila de pronto, processamento na UCP e na fila de espera, como nas operações de E/S. As
+	políticas de escalonamento buscam minimizar o tempo de turnaround.
+	Tempo de resposta:é o tempo decorrido entre uma requisição ao sistema ou à aplicação e o
+	instante em que a resposta é exibida.
+
+Exercício 4. Diferencie os tempos do processador, espera, turnaround e resposta.
+
+	Tempo de processador ou tempo de UCP: é o tempo que um processo leva no estado de
+	execução durante seu processamento.
+	Tempo de espera: é o tempo total que um processo permanece na fila de pronto durante seu
+	processamento, aguardando para ser executado.
+	Tempo de turnaround: é o tempo desde a criação de um processo até o seu término. Levando
+	em consideração todo o tempo gasto na espera para alocação de memória, espera na fila de
+	pronto (tempo de espera), processamento na UCP (tempo de processador) e na fila de espera,
+	como nas operações de E/S.
+	Tempo de resposta: é o tempo decorrido entre uma requisição ao sistema ou à aplicação e o
+	instante em que a resposta é exibida.
+Exercício 5. Diferencie os escalonamentos preemptivos e não-preemptivos.
+
+	No tipo de escalonamento não-preemptivo quando um processo está em execução, nenhum
+	evento externo pode ocasionar a perda do uso do processador. O processo somente sai do
+	estado de execução caso termine seu processamento ou execute instruções do próprio código
+	que ocasionem uma mudança para o estado de espera.
+	No escalonamento preemptivo, o sistema operacional pode interromper um processo em
+	execução e passá-lo para o estado de pronto, com o objetivo de alocar outro processo na UCP.
+
+Exercício 6. Qual a diferença entre os escalonamentos FIFO e circular?
+
+	No escalonamento FIFO(First-in-First-out) o processo que chegar primeiro ao estado de
+	pronto é o selecionado para execução, o processo que passam para o estado de pronto entram
+	no seu final e são escalonados quando chegam ao seu início.
+	Quando um processo vai para o estado de espera, o primeiro processo da fila de pronto é
+	escalonado.O escalonamento circular é bastante parecido com o FIFO, porém quando um
+	processo passa para o estado de execução existe um tempo-limite para o uso contínuo do
+	processador denominado fatia de tempo.
+
+Exercício 7. Descreva o escalonamento SJF e o escalonamento por prioridades.
+
+	No escalonamento SJF o algoritmo de escalonamento seleciona o processo que tiver o menor
+	tempo de processador ainda por executar. Desta forma, o processo em estado de pronto que
+	necessitar de menos tempo de UCP para terminar seu processamento é selecionado para
+	execução.
+	O escalonamento por prioridades é um escalonamento do tipo preemptivo realizado com
+	base em um valor associado a cada processo denominado prioridade de execução. O processo
+	com maior prioridade no estado de pronto é sempre o escolhido para execução, e processos
+	com valores iguais são escalonados seguindo o critério de FIFO. Neste processo o conceito de
+	fatia de tempo não existe, consequentemente um processo em execução não pode sofrer
+	preempção por tempo.
+
+Exercício 8. Qual a diferença entre preempção por tempo e preempção por prioridade?
+
+	A preempção por tempo visa interromper os processos baseados no menor tempo de
+	processo, enquanto quando baseado na prioridade visa processar a fila através do nível de
+	prioridade.
+Exercício 9. O que é um mecanismo de escalonamento adaptativo?
+
+	Esta política busca ajustar dinamicamente qual é a ordem dos processos objetivando o
+	balanceamento do uso do processador.
+Exercício 10. Que tipo de escalonamento aplicações de tempo real exigem?
+
+	Escalonamento por prioridades. Onde a prioridade maior será escalonada primeiro.
+
+Exercício 11. O escalonamento por múltiplas filas com realimentação favorece processos CPU-bound ou I/O-bound? Justifique.
+
+	Este tipo de escalonamento favorece processos I/O-bound. O processo de IO tem um tempo de
+	espera curto e por isso podem subir para as filas com prioridade maior enquanto processos de
+	CPU exigem mais cpu e podem ser intercaladas para favorecer o processo de IO.
+
+Exercício 12. Considere que cinco processos sejam criados no instante de tempo 0 (P1, P2,
+P3, P4 e P5) e possuam as características descritas na tabela a seguir:
+	| Processo	| Tempo de UCP	| Prioridade	|
+	| P1		| 10 			| 3				|
+	| P2 		| 14 			| 4				|
+	| P3		| 7 			| 2				|
+	| P4 		| 20 			| 5				|
+Desenhe um diagrama ilustrando o escalonamento dos processos e seus
+respectivos tempos de turnaround, segundo as políticas especificadas a seguir. O
+tempo de troca de contexto deve ser desconsiderado.
+	
+	FIFO
+	| Processo	| Tempo de UCP	| Prioridade	| Tempo	|
+	| P1		| 10			| 3				| 10	|
+	| P2 		| 14 			| 4 			| 24	|
+	| P3 		| 7 			| 2 			| 31	|
+	| P4 		| 20 			| 5 			| 51	|
+	
+	SJF
+	| Processo	| Tempo de UCP	| Prioridade	| Tempo	|
+	| P3		| 7 			| 2 			| 7		|
+	| P1 		| 10 			| 3 			| 17	|
+	| P2 		| 14 			| 4 			| 31	|
+	| P4 		| 20 			| 5 			| 51	|
+
+	Prioridade (número menor implica a prioridade maior)
+	| Processo	| Tempo de UCP	| Prioridade	| Tempo	|
+	| P3		| 7 			| 2 			| 7		|
+	| P1 		| 10 			| 3 			| 17	|
+	| P2 		| 14 			| 4 			| 31	|
+	| P4 		| 20 			| 5 			| 51	|
+
+	Circular com fatia de tempo igual a 2 u.t.
+	| Processo	| Tempo de UCP	| Prioridade	| Tempo	|
+	| P1 		| 10 			| 3 			| 2		|
+	| P2 		| 14 			| 4 			| 4		|
+	| P3 		| 7 			| 2 			| 6		|
+	| P4 		| 20 			| 5 			| 8		|
+	| P1 		| 8 			| 3 			| 10	|
+	| P2 		| 12 			| 4 			| 12	|
+	| P3 		| 5 			| 2 			| 14	|
+	| P4 		| 18 			| 5 			| 16	|
+	| P1 		| 6 			| 3 			| 18	|
+	| P2 		| 10 			| 4 			| 20	|
+	| P3 		| 3 			| 2 			| 22	|
+	| P4 		| 16 			| 5 			| 24	|
+	| P1 		| 4 			| 3 			| 26	|
+	| P2 		| 8 			| 4 			| 28	|
+	| P3 		| 1 			| 2				| 30	|
+	| P4 		| 14 			| 5 			| 32	|
+	| P1 		| 2 			| 3 			| 34	|
+	| P2 		| 6 			| 4 			| 36	|
+	| P3 		| - 			| 2 			| 37	|
+	| P4 		| 12 			| 5 			| 39	|
+	| P1		| - 			| 3 			| 41	|
+	| P2 		| 4 			| 4 			| 43	|
+	| P3 		| - 			| 2 			| -		|
+	| P4 		| 10 			| 5 			| 45	|
+	| P2 		| 2 			| 4 			| 47	|
+	| P4 		| 8 			| 5 			| 49	|
+	| P2 		| - 			| 4 			| 51	|
+	| P4 		| 6 			| 5 			| 53	|
+	| P4 		| 4 			| 5 			| 55	|
+	| P4 		| 2 			| 5 			| 57	|
+	| P4 		| 0 			| 5 			| 59	|
+
+	Sendo assim os processos terminaram após os seguintes tempos:
+	
+	| Processo	| Segundos	|
+	| P1		| 41		|
+	| P2		| 51		|
+	| P3 		| 37		|
+	| P4 		| 59		|
+
+Exercício 13. Considere um sistema operacional com escalonamento por prioridades onde
+a avaliação do escalonamento é realizada em um intervalo mínimo de 5ms. Neste
+sistema, os processos A e B competem por uma única UCP. Desprezando os
+tempos de processamento relativo às funções do sistema operacional, a tabela a
+seguir fornece os estados dos processos A e B ao longo do tempo, medido em
+intervalos de 5ms (E= execução, P= pronto e W= espera). O processo A tem
+menor prioridade que o processo B.
+
+	a) Em que tempos A sofre alteração?
+
+		10,15,20,40,45,55,70,75,80,85,95,100.
+
+	b) em que tempos B sofre alteração?
+	
+		0,5,10,15,25,30,35,40,45,50,60,65,70,75,85,90.
+	
+	c) Refaça a tabela anterior supondo que o processo a é mais prioritário que o
+	processo B.
+	
+	|				| 00-04	| 05-09	| 10-14	| 15-19	| 20-24	| 25-29	| 30-34	| 35-39	| 40-44	| 45-49	|
+	| Processo A	| E		| E		| W		| W		| P		| E		| E		| E		| W		| W		|
+	| Processo B 	| P		| P		| E		| E		| E		| P		| P		| P		| E		| W		|
+
+	| 				| 50-54	| 55-59	| 60-64	| 65-69	| 70-74	| 75-79	| 80-84	| 85-89	| 90-94	| 95-99	| 100-105	|
+	| Processo A	| W		| P		| E 	|E		| W		| W 	|P		| E		| E		| -		| -			|
+	| Processo B	| P		| E 	|P		| P		| E		| E		| W		| W		| P		| E		| E			|
+
+Exercício 14 Como o valor do quantum pode afetar o grau de multiprogramação em um
+sistema operacional ?
+
+	Um valor de quantum grande pode prejudicar a multiprogramação, na medida em que a
+	ocorrência de preempções por tempo é reduzida, favorecendo os processos CPU-bound e
+	prejudicando os processos I/O-bound. Um valor de quantum pequeno ocasionaria um grande
+	overhead (qualquer combinação de tempo de computação em excesso ou indireta de memória,
+	bandwidth ou outros recursos necessários para executar uma tarefa específica) ao sistema
+	devido a alta frequência de mudanças de contexto geradas pelas frequentes preempções por
+	tempo.
+
+Exercício 15. Considere um sistema operacional que implemente escalonamento circular
+com fatia de tempo igual a 10 u.t. Em um determinado instante de tempo,
+existem apenas três processos (P1,P2 e P3) na fila de pronto, e o tempo de UCP
+de cada processo é 18, 4 e 13 u.t., respectivamente. Qual o estado de cada
+processo no instante de tempo T, considerando a execução dos processos P1, P2
+e P3, nesta ordem, e que nenhuma operação de E/S é realizada?
+
+	a) T = 8 u.t.
+		P1=E, P2=W, P3=W
+	b) T= 11 u.t.
+		P1=E, P2=P, P3=W
+	c) T=33 u.t.
+		P2=E, P3=P
+
+Exercício 16. Considere um sistema operacional que implemente escalonamento circular
+com fatia de tempo igual a 10 u.t. Em um determinado instante de tempo,
+existem apenas três processos (P1,P2 e P3) na fila de pronto, e o tempo de UCP
+de cada processo é 14, 4 e 12 u.t., respectivamente. Qual o estado de cada
+processo no instante de tempo T, considerando a execução dos processos P1, P2
+e P3, nesta ordem, e que apenas o processo P1 realiza operações de E/S? Cada
+operação de E/S é executada após 5 u.t. e consome 10 u.t.
+
+	d) T = 8 u.t.
+		P1=E, P2=W, P3=W
+	e) T= 18 u.t.
+		P1=Saída, P2=E, P3=W
+	f) T=28 u.t.
+		P1=Saída, P3=E
+
+Exercício 17. Existem quatro processos (P1, P2, P3 e P4) na fila de pronto, com tempos de
+UCP estimados em 9, 6, 3 e 5, respectivamente. Em que ordem os processos
+devem ser executados para minimizar o tempo de turnaround dos processos ?
+
+A melhor política para minimizar o tempo de turnaround seria utilizar o escalonamento SJF na
+sequência de execução P3, P4, P2 e P1.
+
+Exercício 18. Considere a tabela a seguir onde:
+
+	| Processo	| Tempo de UCP	| Prioridade	|
+	| P1		| 40			| 4				|
+	| P2		| 20			| 3				|
+	|P3			| 50			| 1				|
+	|P4			| 30			| 3				|
+Qual o tempo de turnaround médio dos processos, considerando o tempo de
+troca de contexto igual a 0 e a 5 u.t. para os seguintes escalonamentos:
+
+	a) FIFO:
+		P1=8 u.t., P2=12 u.t., P3=22 u.t., P4=28 u.t.
+	b) SJF:
+		P2=4 u.t., P4=10 u.t., P1=18 u.t., P3=28 u.t.
+	c) Circular com fatia de tempo igual a 20 u.t:
+		P3=10 u.t., P4=20 u.t., P2=40 u.t., P1=60 u.t.
+	d) Prioridades:
+		P3=10 u.t., P4=16 u.t., P2=20 u.t., P1=28 u.t.

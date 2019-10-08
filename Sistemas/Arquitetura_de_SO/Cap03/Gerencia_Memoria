@@ -1,0 +1,144 @@
+
+
+Parte IX - Gerência de recursos - Gerência de memória
+
+Exercício 01.
+
+    Manter na memória principal o maior número de processos residentes, maximizando o
+    compartilhamento. Swapping: na ausência de espaço livre na memória, o sistema de
+    deve permitir que novos processos devam ser aceitos e executados. Permitir a
+    execução de programas que sejam maiores que a memória física disponível,
+    implementado através de técnicas como overlay e memoria virtual. Em um ambiente de
+    multiprogramação o sistema operacional deve poder proteger as áreas de memórias
+    ocupadas de cada processo, e também oferecer mecanismos de compartilhamento
+
+Exercício 02.
+
+    25% pois a área livre para subutilizar a memória é de 10 kb, o que representa 25% dos
+    40 kb de espaço total.
+
+Exercício 03.
+
+    Ele ter um espaço de 50 kb na memória principal, quando o programa for executado, a
+    técnica de overlay vai rodar os módulos individualmente ou simultaneamente conforme
+    for o necessário, e de acordo com o tamanho disponível na memória principal.
+
+Exercício 04.
+
+    Não, pois a técnica de overlay não se utiliza da memória secundaria, se o tamanho
+    fosse aumentado pra 40 teria um momento da sobreposição de memória que não teria
+    espaço para rodar o programa (20 kb) e seu modulo de 40 kb.
+
+Exercício 05.
+
+    Fragmentação interna: quando um programa é alocado numa partição maior que o
+    necessário, assim ocorre a fragmentação interna do espaço. Fragmentação Externa:
+    Quando um programa vai ser alocado mas nenhuma partição possui o tamanho
+    necessário para este, assim se for possível o programa deverá ser alocado em espaços
+    de memória diferentes.
+
+Exercício 08.
+
+    A grande diferença entre a alocação particionada estática absoluta e a alocação
+    estática relocável é o local na memória principal onde programa é carregado. Na
+    alocação absoluta, um programa pode apenas ser carregado a partir de um único
+    endereço, consequentemente em uma única partição. Na alocação relocável, um
+    programa pode ser carregado a partir de qualquer endereço ou partição.
+
+Exercício 10.
+
+    Best-Fit: Procura a alocação de memória que mais se adeque ao processo que quer
+    rodar. Worst-Fit: Procura a maior alocação de memória para que o processo rode com
+    certeza.
+
+Exercício 12.
+
+    a)
+        Best-Fit: Olhara todas as partições e escolherá o de 10kb. Worst-Fit: Olhara todas as
+        partições e escolherá o de 26kb. First-Fit: Olhara a partição de 10 e escolherá esta.
+
+        BEST-FIT
+        | 5 Kb  | Programa A    |
+        | 3 Kb  | Programa B    |
+        | 6 Kb  | Programa D    |
+
+        | 4 Kb  | Livre         |
+        | 6 Kb  | Programa C    |
+        | 26 Kb | Livre         |
+
+        | 5 Kb  | Livre         |
+        | 3 Kb  | Programa B    |
+        | 6 Kb  | Programa D    |
+        | 4 Kb  | Livre         |
+        | 6 Kb  | Programa C    |
+        | 26 Kb | Livre         |
+
+        | 5 Kb  | Livre         |
+        | 3 Kb  | Programa B    |
+        | 6 Kb  | Programa D    |
+        | 4 Kb  | Programa E    |
+        | 6 Kb  | Programa C    |
+        | 26 Kb | Livre         |
+
+        WORST-FIT
+        | 5 Kb  | Programa A    |
+        | 3 Kb  | Programa B    |
+        | 10 Kb | Livre         |
+        | 6 Kb  | Programa C    |
+        | 6 Kb  | Programa D    |
+        | 20 Kb | Livre         |
+
+        | 5 Kb  | Livre         |
+        | 3 Kb  | Programa B    |
+        | 10 Kb | Livre         |
+        | 6 Kb  | Programa C    |
+        | 6 Kb  | Programa D    |
+        | 20 Kb | Livre         |
+
+        | 5 Kb  | Livre         |
+        | 3 Kb  | Programa B    |
+        | 10 Kb | Livre         |
+        | 6 Kb  | Programa C    |
+        | 6 Kb  | Programa D    |
+        | 4 Kb  | Programa E    |
+        | 16 Kb | Livre         |
+
+        FIRST-FIT
+        | 5 Kb  | Programa A    |
+        | 3 Kb  | Programa B    |
+        | 6 Kb  | Programa D    |
+        | 4 Kb  | Livre         |
+        | 6 Kb  | Programa C    |
+        | 26 Kb | Livre         |
+
+        | 5 Kb  | Livre         |
+        | 3 Kb  | Programa B    |
+        | 6 Kb  | Programa D    |
+        | 4 Kb  | Livre         |
+        | 6 Kb  | Programa C    |
+        | 26 Kb | Livre         |
+
+        | 4 Kb  | Programa E    |
+        | 1 Kb  | Livre         |
+        | 3 Kb  | Programa B    |
+        | 6 Kb  | Programa D    |
+        | 4 Kb  | Livre         |
+        | 6 Kb  | Programa C    |
+        | 26 Kb | Livre         |
+
+Exercício 13.
+
+    A técnica de swapping foi introduzida para contornar o problema da insuficiência de
+    memória principal. Swapping é uma técnica que permite executar programas e
+    manipular arquivos de dados maiores do que a memória principal.
+
+    O sistema operacional copia o máximo de dados possível na memória principal e deixa o
+    restante no disco. Quando o sistema operacional precisa de dados do disco, ele troca
+    uma parte dos dados (chamados de página ou segmento) na memória principal por uma
+    parte dos dados no disco.
+
+Exercício 14.
+
+    O loader com relocação dinâmica permite que os programas possam ser retirados da
+    memória principal para a memória secundária e trazidos novamente para a memória
+    principal em qualquer posição.

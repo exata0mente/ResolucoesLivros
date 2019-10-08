@@ -1,0 +1,78 @@
+
+Parte XII - Gerência de recursos - Gerência de dispositivos
+
+Exercício 01. Explique o modelo de camadas aplicando na gerencia de dispositivos.
+
+    A Gerencia de Dispositivos é estruturada de acordo com as camadas em um modelo
+    semelhante ao apresentado para o próprio sistema operacional de forma geral. As camadas de
+    nível mais baixo escondem características dos dispositivos das camadas superiores,
+    oferecendo dessa forma uma interface simples e confiável ao usuário e suas aplicações. As
+    camadas aplicadas na gerência de dispositivos são divididas em duas categorias, onde a
+    primeira engloba os diversos tipos de dispositivos do sistema de modo único, e a segunda é
+    específica para cada dispositivo. A maior parte das camadas trabalha de forma independente do
+    dispositivo.
+
+Exercício 02. Qual a principal finalidade das rotinas de E/S?
+
+    A principal finalidade das rotinas de E/S é tornar as operações de E/S o mais simples possível
+    para os usuários e suas aplicações. Dessa forma, é possível que o usuário realize operações de
+    E/S sem que precise se preocupar com detalhes do dispositivo que está sendo acessado.
+
+Exercício 03. Quais as diferentes formas de um programa chamar rotinas de E/S?
+
+    Através de comandos de leitura/gravação e chamadas a bibliotecas de rotinas oferecidas por
+    linguagens de alto nível, ou diretamente, através de uma chamada ao sistema em um código de
+    alto nível.
+
+Exercício 04. Quais as principais funções do subsistema de E/S?
+
+    Criar uma interface padronizada com os drives de dispositivos e oferecer uma interface
+    uniforme às camadas superiores.
+
+Exercício 05. Qual a principal função de um device driver?
+
+    Implementar através de controladores, a comunicação do subsistema de E/S.
+
+Exercício 06. Por que o Sistema de E/S deve criar uma interface padronizada com os device drives?
+
+    Para que não seja necessário alterar a camada de subsistema de E/S ao incluir novos drives.
+
+Exercício7. Explique o funcionamento de técnica de DMA e sua principal vantagem
+
+    Inicialmente a UCP, através do device driver, inicializa os registradores do controlador de DMA e
+    após isso fica livre para realizar outras atividades. Em seguida, o controlador de DMA solicita
+    ao controlador de disco a transferencia termina, o controlador de DMA transfere o bloco para o
+    buffer de E/S na memória principal. Após isso o controlador de DMA gera uma interrupção
+    informando ao processador que o dado já se encontra na memória principal. A principal
+    vantagem de utilizar esta técnica é evitar que o processador fique ocupado com a transferência
+    do bloco para memória.
+
+Exercício 08. Diferencie os dispositivos de E/S estruturadas dos não estruturados.
+
+    Os dispositivos estruturados (block devices) caracterizam-se por armazenar informações em
+    blocos de tamanho \ufb01xo, possuindo cada qual um endereço que podem ser lidos ou
+    gravados de forma independente dos demais. Discos magnéticos e ópticos são exemplos de
+    dispositivos estruturados. Os dispositivos não-estruturados são aqueles que enviam ou
+    recebem uma seqüência de caracteres sem estar estruturada no formato de um bloco. Desse
+    modo, a seqüência de caracteres não é endereçável, não permitindo operações de acesso
+    direto ao dado. Dispositivos como terminais, impressoras e interfaces de rede são exemplos de
+    dispositivos não-estruturados.
+
+Exercício 09. Qual a principal razão de as operações de E/S em fitas e discos magnéticos serem tão lentas se
+comparadas à velocidade com que o processador executa instruções?
+
+    A principal razão é o aspecto mecânico presente nas arquiteturas de \ufb01tas e discos
+    magnéticos, devido a isso, o tempo total das operações de E/S é extremamente longo, se
+    comparado ao número de instruções que o processador pode executar no mesmo intervalo de
+    tempo.
+
+Exercício 10. O que são técnicas de redundância em discos magnéticos?
+
+    São técnicas que possibilitam garantir a integridade dos dados mesmo em caso de crash nos
+    discos magnéticos
+
+Exercício 11. Diferencie as técnicas RAID 0, RAID 1 e RAID 5, apresentando vantagens e desvantagens.
+
+    A vantagem do RAID 0 sobre o RAID 1 é que ele é mais rápido porém o RAID 1 tem a vantagem
+    de ter mais segurança nos arquivos. Já o RAID é a junção do RAID 0 e 1 tendo as duas
+    vantagens porém com a desvantagem de ter que usar um HD a mais que nos RAIDs anteriores. 

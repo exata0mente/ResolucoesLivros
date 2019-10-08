@@ -1,0 +1,63 @@
+
+Parte XI - Gerência de recursos - Sistema de arquivos
+
+Exercício 01.
+
+    Lugar destinado a armazenamento de documentos.
+
+Exercício 02.
+
+    Pode ser arquivada de maneira sequencial, indexada e relativa, sendo a sequencial a
+    mais simples para armazenamento.
+
+Exercício 03.
+
+    Sequencial: O sistema deve identificar o início e final do arquivo, a gravação só é possível
+    ao final do arquivo.
+    Acesso direto:Permite gravar e ler direto em sua posição sem restrições de ordem.
+    Acesso indexado:Realiza um acesso direto a partir de um índice que é apontado por um
+    registrador.
+
+Exercício 04.
+
+    É quando o programa de computador solicita um serviço do núcleo do sistema
+    operacional sobre o qual ele está sendo executado.
+
+Exercício 05.
+
+    Sequencial: O sistema deve identificar o início e final do arquivo, a gravação só é
+    possível ao final do arquivo.
+    Acesso direto:Permite gravar e ler direto em sua posição sem restrições de ordem.
+    Acesso indexado:Realiza um acesso direto a partir de um índice que é apontado por
+    um registrador.
+
+Exercício 06.
+
+    Alocação Contígua:
+        Vantagens:
+            Simples de implementar e fácil de acessar o arquivo;
+            Rápido acesso;
+        Desvantagens:
+            Fragmentação;
+    Alocação Encadeada
+        Vantagens:
+            Sem fragmentação;
+            Simples de aumentar um arquivo, assim como criar e apagar;
+        Desvantagens:
+            Confiabilidade.
+
+Exercício 07.
+
+    É a ação de armazenar um arquivo em blocos sequencialmente dispostos no
+    disco. O acesso a arquivos dispostos contiguamente no disco é bastante simples
+    tanto para a forma sequencial quanto para a direta. Seu principal problema é a
+    alocação de espaço livre para novos arquivos.
+
+Exercício 09.
+
+    READ/WRITE/EXECUTE/DELETE.
+
+Exercício 10.
+
+    Sistema operacional reserva uma area da memoria para que se tornem
+    disponiveis caches utilizados em operações de acesso ao disco.
