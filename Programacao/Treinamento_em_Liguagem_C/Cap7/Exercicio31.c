@@ -10,7 +10,7 @@
   indicando o indice do caractere, se for encontrado, ou -1, em caso contrario.
 
   Reposta comentada em: https://youtu.be/k0Ovkr2CyEQ
-  Mais exercícios em: http://exata0mente.blogspot.com/
+  Mais exercícios em: https://exata0mente.com.br/
 
 
 */

@@ -9,7 +9,7 @@
   que inicialize a string com n vezes o caractere ch.
 
   Reposta comentada em video: **
-  Mais exercícios em: http://exata0mente.blogspot.com/
+  Mais exercícios em: https://exata0mente.com.br/
   Contate-me: exata0mente@gmail.com
 
 

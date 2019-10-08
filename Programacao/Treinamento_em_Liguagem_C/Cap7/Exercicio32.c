@@ -10,7 +10,7 @@
   a diferença ASCII dos primeiros caracteres diferentes, ou zero se as cadeias forem iguais
 
   Reposta comentada em: https://youtu.be/RL2iskXoDt4
-  Mais exercícios em: http://exata0mente.blogspot.com/
+  Mais exercícios em: https://exata0mente.com.br/
 
 
 */
