@@ -9,7 +9,7 @@
   que converta uma string em letras maiusculas.
 
   Reposta comentada em: https://youtu.be/RCil5rNj9zc
-  Mais exercícios em: http://exata0mente.blogspot.com/
+  Mais exercícios em: https://exata0mente.com.br/
 
 
 */

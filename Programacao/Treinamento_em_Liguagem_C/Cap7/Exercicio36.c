@@ -9,7 +9,7 @@
   que insira o caractere ch na posicao pos da string str.
 
   Reposta comentada em video: **
-  Mais exercícios em: http://exata0mente.blogspot.com/
+  Mais exercícios em: http://exata0mente.com.br
   Contate-me: exata0mente@gmail.com
 
 

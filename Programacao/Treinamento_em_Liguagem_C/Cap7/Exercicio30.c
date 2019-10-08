@@ -9,7 +9,7 @@
   que converta uma string em letras minuscula.
 
   Reposta comentada em: https://youtu.be/REBdLOsFG3A
-  Mais exercícios em: http://exata0mente.blogspot.com/
+  Mais exercícios em: https://exata0mente.com.br/
 
 
 */

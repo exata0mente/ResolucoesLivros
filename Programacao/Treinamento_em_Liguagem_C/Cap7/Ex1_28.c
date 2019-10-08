@@ -1,7 +1,7 @@
 //Treinamento em Linguagem C - Victorine Viviane Mizrahi
 //Capítulo 7 - Matrizes
 //Exercícios 1 a 28
-//Acesse nossa página de resolução dos exercícios: http://exata0mente.blogspot.com/
+//Acesse nossa página de resolução dos exercícios: http://exata0mente.com.br/
 
 Exercício 1. Uma matriz é uma coleção de variáveis de:
 

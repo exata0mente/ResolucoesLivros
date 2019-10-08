@@ -1,7 +1,7 @@
 //Projeto de Banco de Dados 6ed. - Carlos Alberto Heuser
 //Capítulo 1 - Introdução
 //Exercícios 1 a 12
-//Acesse nossa página de resolução dos exercícios: http://exata0mente.blogspot.com.br/
+//Acesse nossa página de resolução dos exercícios: https://exata0mente.com.br/ 
 
 Exercício 1. Dê um exemplo, diferente do apresentado no início do capítulo, de redundância não controlada de dados.
 

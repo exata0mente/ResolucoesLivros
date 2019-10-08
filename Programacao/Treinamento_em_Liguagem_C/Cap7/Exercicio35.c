@@ -10,7 +10,7 @@
   recebidos no terceiro argumento (novo). A função retorna o número de substituições.
 
   Reposta comentada em video: **
-  Mais exercícios em: http://exata0mente.blogspot.com/
+  Mais exercícios em: http://exata0mente.com.br/
   Contate-me: exata0mente@gmail.com
 
 
