@@ -67,7 +67,9 @@ Caso queira saber mais como colaborar, dê uma olhada no nosso [CONTRIBUTING.md]
 
 ## Conseguimos te ajudar? :heart_eyes:
 
-Oba! Dever cumprido. Que tal dar uma "estrelada" :star: no nosso repositório? Assim poderemos alcançar mais e mais pessoas.
+Oba! Dever cumprido. Que tal dar uma "estrelada" :star: no nosso repositório? Assim poderemos alcançar mais e mais pessoas. Ou quem sabe um simples cafézinho?
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JXFJQPWTTAWRC)
 
 ## Contato
 
