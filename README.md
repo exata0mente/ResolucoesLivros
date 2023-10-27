@@ -45,12 +45,13 @@ Status / Dificuldade | Livro | Capítulo Atual | Colaborador(es)|
 :zzz::sunny:| HEUSER, Carlos Alberto. **Projeto de banco de dados: Volume 4 da Série Livros didáticos informática UFRGS** | 1 de ? | @exata0mente
 :zzz::sun_behind_small_cloud: | AMARAL, Fernando. **Aprenda Mineração de Dados: Teoria e prática**. | 1 de ? | @exata0mente
 :zzz::sunny:| DAMAS, Luis. **Linguagem C. 10ª Edição**. | 1 de ? | @exata0mente
+:zzz::sunny:|ASCENCIO, Ana Fernanda; CAMPOS, Edilene. **Fundamentos da Programação de Computadores. 3ª Edição**.| ? | @kauageorjuti
 :pencil::sun_behind_small_cloud:|MACHADO, Francis Berenger; MAIA, Luiz Paulo. **Arquitetura de sistemas operacionais**.| 1 de ? | @exata0mente @vitorrsbarbosa
 :watch::sun_behind_small_cloud:| **C++ Black Book - Guia Completo para Resolução de Problemas** | ? |
 :watch::sun_behind_small_cloud:|THOMAS, David. **O Programador Pragmático: de aprendiz a mestre**.|?|
 :watch::sun_behind_rain_cloud:| SUDARSHAN, S.; SILBERSCHATZ, Abraham; KORTH, F. Henry. **Sistemas de Banco de Dados** | ? |
 :watch::sun_behind_small_cloud:|MARTIN, Robert C. et al. **Código limpo: habilidades práticas do Agile software** | ? |
-:zzz::sunny:| Ana Fernanda Gomes Ascencio. Edilene Aparecida Veneruchi de Campos. **Fundamentos da Programação de Computadores **.|? de ?| @kauageorjuti
+
 
 ### Próximos Livros
 
