@@ -8,12 +8,51 @@ A- Gumercindo venceu Barnabé no salto em distância;
 B- Teodoro chegou atrás de Gumercindo no arremesso de dardos;
 C- Barnabé não chegou em primeiro nos 100 metros rasos.
 //
+RESPOSTA 1 - Gumercindo: Salto em distância (1º), Arremesso de dardos (3º), 100 metros rasos (2º).
+Barnabé: Salto em distância (2º), Arremesso de dardos (1º), 100 metros rasos (3º).
+Teodoro: Salto em distância (Ainda não sabemos), Arremesso de dardos (2º), 100 metros rasos (1º).
+//
 Exercício 2 - João tem 3 barris. No barril A, que está vazio, cabem 8 litros. No barril B, 5. No barril C, 3 litros. Que deve ele fazer para deixar os barris A e B com 4 litros cada e o C vazio?
+//
+RESPOSTA 2 - Encher o barril B (5 litros).
+Despejar o conteúdo do barril B no barril A (agora o barril A tem 5 litros e o barril B está vazio).
+Encher o barril B novamente (5 litros).
+Com o barril B cheio, João pode despejar o conteúdo excedente no barril A até que o barril A tenha 4 litros (agora o barril A tem 4 litros, o barril B tem 1 litro, e o barril C está vazio).
+Agora, João pode despejar o conteúdo do barril B (1 litro) no barril C (que tem capacidade para 3 litros).
+Finalmente, João despeja o conteúdo restante do barril A (4 litros) no barril B (agora o barril A está vazio, o barril B tem 4 litros, e o barril C ainda tem 1 litro).
+Agora, os barris A e B têm 4 litros cada, e o barril C está vazio.
 //
 Exercício 3 - Tendo como exemplo os algoritmos desenvolvidos para solucionar o problema da troca de lâmpadas, elabore um algoritmo que mostre os passos necessários para trocar um pneu furado. Considere o seguinte conjunto de situações:
 A- Trocar o pneu traseiro esquerdo;
 B- Trocar o pneu traseiro esquerdo e, antes, verificar se o pneu reserva está em condições de uso;
 C- Verificar se existe algum pneu furado; se houver, verificar o pneu reserva e, então, trocar o pneu correto. 
+//
+RESPOSTA 3 - 1. Iniciar
+
+2. Ler a situação (A, B ou C)
+
+3. Se a situação for A:
+     a. Trocar o pneu traseiro esquerdo.
+
+4. Se a situação for B:
+     a. Verificar se o pneu reserva está em condições de uso.
+     b. Se o pneu reserva estiver em condições:
+           i. Trocar o pneu traseiro esquerdo.
+      c. Se o pneu reserva não estiver em condições:
+           i. Chamar assistência ou executar procedimentos adequados.
+
+5. Se a situação for C:
+     a. Verificar se há algum pneu furado.
+     b. Se houver pneu furado:
+           i. Verificar o pneu reserva.
+           ii. Se o pneu reserva estiver em condições:
+                - Trocar o pneu furado indicado.
+           iii. Se o pneu reserva não estiver em condições:
+                - Chamar assistência ou executar procedimentos adequados.
+     c. Se não houver pneu furado:
+           i. Informar que não há pneu furado.
+
+6. Fim
 //
 Exercício 5 - Considere que uma calculadora comum, de quatr operações, está com as teclas de divisão e multiplicação inoperantes. Escreva algoritmos que resolvam as expressões matemáticas a seguir usando apenas as operações de adição e subtração.
 a-) 12 x 4
@@ -21,4 +60,29 @@ b-) 23 x 11
 c-) 10 / 2
 d-) 175 / 7
 e-) 2^8
+//
+RESPOSTA 5 - a-) Algoritmo:
+1. Inicializar a variável resultado com 0.
+2. Adicionar 12 ao resultado quatro vezes (12 + 12 + 12 + 12).
+3. O resultado é 48.
+
+b-) Algoritmo:
+1. Inicializar a variável resultado com 0.
+2. Adicionar 23 ao resultado onze vezes (23 + 23 + 23 + 23 + 23 + 23 + 23 + 23 + 23 + 23 + 23).
+3. O resultado é 253.
+
+c-) Algoritmo:
+1. Inicializar a variável resultado com 0.
+2. Adicionar 2 ao resultado repetidamente até que o resultado seja igual a 10 (2 + 2 + 2 + 2 + 2).
+3. O resultado é 10.
+
+d-) Algoritmo:
+1. Inicializar a variável resultado com 0.
+2. Adicionar 7 ao resultado repetidamente até que o resultado seja igual a 175 (7 + 7 + 7 + ...).
+3. O resultado é 175.
+
+e-) Algoritmo:
+1. Inicializar a variável resultado com 1.
+2. Adicionar 2 ao resultado sete vezes (1 * 2 * 2 * 2 * 2 * 2 * 2 * 2).
+3. O resultado é 256.
 //
