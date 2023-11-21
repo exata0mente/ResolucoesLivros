@@ -1,0 +1,24 @@
+//Lógica de Programação, 3º edição - Andre Luis Villar; Henrique Frederico Eberspacher. 
+//Capítulo 1 - Introdução à Lógica de Programação
+//Exercícios 1, 2, 3 e 5.
+//Acesse nossa página de resolução dos exercícios: https://github.com/exata0mente/ResolucoesLivros/new/master/Programacao/Linguagem-C
+
+Exercício 1 - No torneio de atletismo, Barnabé, Gumercindo e Teodoro participaram da prova de 100 metros rasos, saltos em distância e arremesso de dardos. Cada um deles conseguiu um primeiro lugar, um segundo e um terceiro. Descubra o que cada um conquistou, sabendo que:
+A- Gumercindo venceu Barnabé no salto em distância;
+B- Teodoro chegou atrás de Gumercindo no arremesso de dardos;
+C- Barnabé não chegou em primeiro nos 100 metros rasos.
+//
+Exercício 2 - João tem 3 barris. No barril A, que está vazio, cabem 8 litros. No barril B, 5. No barril C, 3 litros. Que deve ele fazer para deixar os barris A e B com 4 litros cada e o C vazio?
+//
+Exercício 3 - Tendo como exemplo os algoritmos desenvolvidos para solucionar o problema da troca de lâmpadas, elabore um algoritmo que mostre os passos necessários para trocar um pneu furado. Considere o seguinte conjunto de situações:
+A- Trocar o pneu traseiro esquerdo;
+B- Trocar o pneu traseiro esquerdo e, antes, verificar se o pneu reserva está em condições de uso;
+C- Verificar se existe algum pneu furado; se houver, verificar o pneu reserva e, então, trocar o pneu correto. 
+//
+Exercício 5 - Considere que uma calculadora comum, de quatr operações, está com as teclas de divisão e multiplicação inoperantes. Escreva algoritmos que resolvam as expressões matemáticas a seguir usando apenas as operações de adição e subtração.
+a-) 12 x 4
+b-) 23 x 11
+c-) 10 / 2
+d-) 175 / 7
+e-) 2^8
+//
