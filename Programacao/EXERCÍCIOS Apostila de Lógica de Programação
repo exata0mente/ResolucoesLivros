@@ -1,4 +1,5 @@
-Apostila de Lógica de Programação - INSTITUTO FEDERAL FLUMINENSE CAMPUS CAMPOS CENTRO 
+Apostila de Lógica de Programação - Mestrado Profissional em Ensino e suas Tecnologias – 2019
+ Campos Centro - IFFluminense
 
   Modulo 1 - Algoritimos 
 
@@ -85,3 +86,179 @@ d) Letras, números e caracteres especiais
 e) Somente caracteres especiais e números
 
 Resposta: d) Letras, números e caracteres especiais
+
+Módulo 2 – Variáveis, Constantes e Operadores.
+
+
+2.1.1 ATIVIDADES CONSTANTES E VARIÁVEIS
+
+
+1. A afirmação “Uma constante armazena um valor fixo, que mudará com
+o tempo de execução do programa” é:
+a) Verdadeira
+b) Falsa
+
+Resposta: b) Falsa 
+
+2. É um nome válido para a declaração de uma variável:
+a) *nome
+b) data de nascimento
+c) data_de_inicio
+d) 1ºnumero
+e) novo-salario
+
+Resposta: c) data_de_inicii
+
+3. A afirmação “O conteúdo de uma variável pode ser alterado, consultado
+ou apagado quantas vezes forem necessárias no algoritmo” é:
+a) Verdadeira
+b) Falsa
+
+Resposta: a) Verdadeira 
+
+2.2.1 ATIVIDADES ENTRADA E SAÍDA DE DADOS
+
+
+1. São comando utilizados nos algoritmos para representar as instruções
+de entrada e saída de dados:
+a) Entrada; Saída
+b) Open; Close
+c) Leia; Escreva;
+d) Informe; Leia
+e) Escreva; Importe
+
+Resposta: c) Leia e Escreva
+
+2. Qual alternativa abaixo corresponde a uma maneira adequada de inserir
+comentários em algoritmos:
+a) *comentário*
+b) “comentário”
+c) !comentário
+d) %comentário
+e) //comentário
+
+Resposta: //comentário 
+
+3. A afirmação “É utilizada quando se deseja obter informações do usuário
+por meio do teclado” se refere a instrução de:
+a) Entrada de dados (Leia)
+b) Saída de dados (Escreva)
+
+Resposta: a) Entrada de dados(Leia)
+
+
+2.3.1 ATIVIDADES OPERADORES
+
+
+
+1. São tipos de operadores, exceto:
+a) Aritméticos
+b) Lógicos
+c) Relacionais
+d) Interpretativos
+e) De atribuição
+
+Resposta: d) Interpretativos 
+
+
+2. A afirmação “É um conjunto de símbolos que representa as operações
+básicas da matemática, como somar e subtrair” se refere a que tipo de
+operador:
+a) Lógico
+b) Relacional
+c) De atribuição
+d) Booleano
+e) Aritmético
+
+Resposta: e) Aritimético 
+
+
+3. São exemplos de operadores de atribuição, exceto:
+a) +=
+b) *=
+c) %=
+d) #=
+e) =
+
+Resposta: d) #=
+
+4. Qual opção abaixo contém apenas tipos de operadores lógicos:
+a) Conjunção, negação, afirmação
+b) Conjunção, afirmação, disjunção
+c) Conjunção, disjunção, negação
+d) Afirmação, disjunção, negação
+e) Conjunção, abdução, disjunção
+
+Resposta: c) Conjunção, disjunção, negação
+
+5. São exemplos de operadores relacionais, exceto:
+a) <>
+b) !=
+c) =
+d) ==
+
+Resposta: a) <>
+
+Módulo 3 – Estruturas de Seleção
+
+3.2.1 ATIVIDADES ESTRUTURA DE SELEÇÃO IF/ELSE
+
+
+1. A estrutura de seleção IF pode ser classificada em:
+a) Simples; Composta; Refinada
+b) Simples; Composta; Derivada
+c) Simples, Composta; Aninhada
+d) Simples; Derivada; Aninhada
+e) Composta; Derivada; Aninhada
+
+Resposta: c) Simples, Composta; Aninhada
+
+
+2. A afirmação “Na estrutura de seleção If/Else a condição é verificada a
+cada passagem pela estrutura Else”, é:
+a) Verdadeira
+b) Falsa
+
+Resposta: a) Verdadeira
+
+3. A estrutura de seleção aninhada também é conhecida como:
+a) Estruturada
+b) Combinada
+c) Encadeada
+d) Distribuída
+e) Interpretada
+
+
+Resposta: c) Encadeada 
+
+
+
+3.3.1 ATIVIDADES ESTRUTURA DE SELEÇÃO SWITCH/CASE
+
+
+1. A afirmação “A estrutura de seleção Switch/Case é utilizada quando é
+necessário testar a mesma variável várias vezes” é:
+a) Verdadeira
+b) Falsa
+
+Resposta: a) Verdadeira
+
+2. Na estrutura de seção Switch/Case a variável a ser testada deve ser
+sempre do tipo:
+
+a) Inteiro ou Lógica
+b) Inteiro ou Real
+c) Inteiro ou Literal
+d) Lógica ou Literal
+e) Literal
+
+Resposta: c) Inteiro ou Literal
+
+
+3. A afirmativa “O comando BREAK é utilizado para forçar a repetição do
+SWITCH ao se entrar em um CASE” é:
+
+a) Verdadeira
+b) Falsa
+
+Resposta: b) Falsa
