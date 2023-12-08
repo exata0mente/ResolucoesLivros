@@ -1,0 +1,87 @@
+Apostila de Lógica de Programação - INSTITUTO FEDERAL FLUMINENSE CAMPUS CAMPOS CENTRO 
+
+  Modulo 1 - Algoritimos 
+
+1.1.1 Atividade algoritimos 
+
+
+1. Dentre os exemplos abaixo, não pode ser considerado um algoritmo:
+a) Guia de instalação do Ubuntu
+b) Manual de instruções de uso de micro-ondas
+c) Receita de sorvete
+d) Cardápio de restaurante
+
+Resposta:  D Cardápio de restaurante 
+
+
+2. A afirmação "O algoritmo é uma sequência de passos lógicos e infinitos e não-ambíguos que permitem solucionar problemas" é:
+a) Verdadeira
+b) Falsa
+
+Resposta: A Verdadeira 
+
+
+3. A afirmação "Um programa de computador é um algoritmo escrito em um formato compreensível pelo computador" é:
+a) Verdadeira
+b) Falsa
+
+Resposta: B É falsa 
+
+
+
+1.2.1 ATIVIDADES FORMAS DE REPRESENTAÇÃO
+
+
+1. As formas de representação de algoritmo mais conhecidas são?
+a) Fluxograma, Descrição narrativa, Pseudocódigo
+b) Diagrama de classe, Fluxograma, Pseudocódigo
+c) Pseudocódigo, Prototipagem, Fluxograma
+d) Pseudocódigo, Fluxograma, Modelagem de dados
+e) Descrição narrativa, prototipagem, fluxograma
+
+
+Resposta: a) Fluxograma, Descrição narrativa, Pseudocódigo
+
+
+2. A afirmação "É um consenso entre os programadores que a melhor forma de representação de um algoritmo é a descrição narrativa" é:
+a) Verdadeira
+b) Falsa
+
+Resposta: b) Falsa
+
+
+3. A afirmação "O fluxograma utiliza símbolos específicos, que podem variar de acordo com a ferramenta, para representar graficamente os algoritmos" é:
+a) Verdadeira
+b) Falsa
+
+
+Resposta: a) Verdadeira
+
+1.3.1 ATIVIDADES TIPOS DE DADOS
+
+
+1. Os tipos de dados podem ser:
+a) Inteiro, Literal, Lógico
+b) Numérico, Literal, Lógico
+c) Literal, Caractere, Imagem
+d) Real, Caractere, Lógico
+e) Numérico, Imagem, Caractere
+
+Resposta: b) Numérico, Literal, Lógico
+
+2. O tipo de dado Lógico pode assumir os valores: verdadeiro, falso e zero.
+a) Verdadeiro
+b) Falso
+
+
+Resposta: a) Verdadeiro
+
+
+3. O tipo de dado literal é uma sequência de caracteres que podem ser:
+a) Somente letras
+b) Somente letras e números
+c) Somente letras e caracteres especiais
+d) Letras, números e caracteres especiais
+e) Somente caracteres especiais e números
+
+Resposta: d) Letras, números e caracteres especiais
